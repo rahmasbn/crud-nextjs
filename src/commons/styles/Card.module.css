@@ -1,0 +1,70 @@
+.body {
+  padding: 20px 30px;
+  background-color: white;
+  border-radius: 13px;
+}
+.wrapper-img {
+  width: 150px;
+  height: 150px;
+}
+.img-product {
+  object-fit: cover;
+  border-radius: 10px;
+}
+.btnEdit,
+.btnDelete {
+  color: white;
+  border-radius: 10px;
+  height: 45px;
+  margin-top: auto;
+  font-family: "Nunito Sans";
+}
+.btnEdit {
+  background-color: #7db6e4;
+}
+.btnDelete {
+  background-color: #d15a78;
+}
+.stock {
+  font-size: 18px;
+}
+
+/* Modal */
+.btn-modal {
+  width: 95%;
+  margin-top: 2%;
+  color: #393939;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+}
+/* .modal-wrapper {
+ align-items: center;
+} */
+.text {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Nunito Sans";
+}
+/* .modal-btn {
+  display: flex;
+  margin-top: 10%;
+  width: 100%;
+  position: relative;
+} */
+.delete, .cancel {
+  width: 35%;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25);
+  margin: auto;
+  border: none;
+}
+.delete, .delete:hover {
+  background-color: #d15a78;
+}
+.cancel, .cancel:hover {
+  background-color: #979595;
+}

@@ -1,6 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-}
-
-module.exports = nextConfig
+  rewrites: async function () {
+    return [
+      {
+        source: "/products", // url asal/url baru
+        destination: "/", // url tujuan/url lama
+      },
+    ];
+  },
+};

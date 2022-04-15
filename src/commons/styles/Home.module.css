@@ -1,0 +1,65 @@
+.card {
+  background-color: cornsilk;
+}
+.search {
+  width: 25%;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  background-color: #e5e5e5;
+}
+.search:focus {
+  outline: none;
+}
+.btnAdd {
+  background-color: rgb(55, 172, 55);
+  color: white;
+  font-family: "Nunito Sans";
+  border-radius: 8px;
+}
+.btn-disable {
+  background-color: #f0eaea;
+  color: #6379f4;
+  font-size: 1.1rem;
+}
+.btn-active {
+  background-color: #6379f4;
+  color: white;
+  font-size: 1.1rem;
+}
+.page {
+  position: relative;
+  top: 10px;
+  font-size: 1.2rem;
+  color: #6379f4;
+}
+
+/* Modal */
+.modal {
+  font-family: "Nunito Sans";
+}
+.desc {
+  color: #3a3d42;
+}
+.submit,
+.save {
+  border-radius: 6px;
+  width: 30%;
+  padding: 8px 0;
+  margin-left: auto;
+}
+.submit {
+  background-color: rgb(55, 172, 55);
+}
+.save {
+  background-color: #7db6e4;
+}
+.btn-close {
+  font-size: 25px;
+  right: 0;
+  top: 20px;
+  cursor: pointer;
+}
+.space {
+  margin-bottom: -5px;
+}
